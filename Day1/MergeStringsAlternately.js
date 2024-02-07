@@ -14,5 +14,3 @@ var mergeAlternately = function(word1, word2) {
     }
     return result
 };
-const v  = mergeAlternately("ab","pqr")
-console.log(v)
