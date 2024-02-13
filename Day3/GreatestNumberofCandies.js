@@ -16,3 +16,10 @@ var kidsWithCandies = function(candies, extraCandies) {
     }
     return output
 };
+
+/*Best time complexity:
+var kidsWithCandies = function(candies, extraCandies) {
+    let mx=Math.max(...candies)
+    return candies.map((item)=>(item + extraCandies) >=mx)
+};
+*/
