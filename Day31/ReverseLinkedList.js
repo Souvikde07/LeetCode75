@@ -26,6 +26,7 @@ var reverseList = function(head,prev=null) {
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+/*
 class Solution {
     public ListNode reverseList(ListNode head) {
         Stack<Integer> valueStack = new Stack();
@@ -42,4 +43,4 @@ class Solution {
         }
         return reversedList.next;
     }
-}
+}*/
